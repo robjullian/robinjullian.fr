@@ -26,7 +26,7 @@ a {
 /* MAIN */
 
 .main {
-  background: linear-gradient(rgba(5, 36, 44, 0.95), rgba(5, 36, 44, 0.95)), url(../img/bg.png) center fixed;
+  background: linear-gradient(rgba(5, 36, 44, 0.90), rgba(5, 36, 44, 0.90)), url(../img/bg.png) center fixed;
 	background-size: cover;
   text-align: center;
 	width: 100%;
