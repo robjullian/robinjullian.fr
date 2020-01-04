@@ -1,0 +1,72 @@
+@import url('../fonts//Bahnschrift/style.css');
+
+:root {
+  --midnight-blue-dark: #05242c;
+  --midnight-blue-light: #0a454a;
+  --dark-sea-green: #c8cfce;
+  --sea-green: #35747e;
+  --dim-gray: #5b5055;
+}
+
+body {
+  margin: 0;
+  font-family: Bahnschrift Regular;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  /*background-color: var(--color-one)*/
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: white;
+}
+
+/* MAIN */
+
+.main {
+  background: linear-gradient(rgba(5, 36, 44, 0.95), rgba(5, 36, 44, 0.95)), url(../img/bg.png) center fixed;
+	background-size: cover;
+  text-align: center;
+	width: 100%;
+	min-height: 100vh;
+  color: white;
+}
+
+.main-title {
+  z-index: 8;
+  color: white;
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-credit {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+.main-title h1 {
+  font-size: 200px;
+}
+
+@media (max-width: 800px) {
+  .main-title h1 {
+    font-size: 100px;
+  }
+}
+
+/* SECOND */
+
+.second {
+  z-index: 10;
+  background: linear-gradient(rgba(5, 36, 44, 0.95), rgba(5, 36, 44, 0.95)), url(../img/bg2.png) center fixed;;
+  text-align: center;
+	width: 100%;
+	min-height: 100vh;
+  color: white;
+  position: absolute;
+}
