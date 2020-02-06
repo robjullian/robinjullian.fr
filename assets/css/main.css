@@ -1,4 +1,4 @@
-@import url('../fonts//Bahnschrift/style.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 :root {
   --midnight-blue-dark: #05242c;
@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: Bahnschrift Regular;
+  font-family: 'Source Sans Pro', sans-serif;
   /* font-family: 'Source Sans Pro', sans-serif; */
   /*background-color: var(--color-one)*/
 }
@@ -51,11 +51,27 @@ a {
 
 .main-title h1 {
   font-size: 200px;
+  line-height: 85%;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 0;
+  font-weight: lighter;
+  font-style: italic;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 800px) {
   .main-title h1 {
     font-size: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-title h1 {
+    font-size: 86px;
   }
 }
 
